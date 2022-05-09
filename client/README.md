@@ -1,0 +1,4 @@
+# Competency map!
+
+Используется yarn
+

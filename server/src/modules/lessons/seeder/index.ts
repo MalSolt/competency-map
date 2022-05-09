@@ -1,0 +1,1 @@
+export { LessonsSeeder } from './seeder';

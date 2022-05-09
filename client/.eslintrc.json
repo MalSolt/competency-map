@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@next/next/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "global-require": 0,
+    "linebreak-style": 0,
+    "react/require-default-props": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "error",
+    "react/no-array-index-key": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  }
+}

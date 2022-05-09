@@ -1,0 +1,1 @@
+export { KnowledgeAutocomplete } from './KnowledgeAutocomplete';

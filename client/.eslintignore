@@ -1,0 +1,6 @@
+/.storybook/
+/public/**
+/node_modules
+/mocks
+/cypress
+/next.config.js

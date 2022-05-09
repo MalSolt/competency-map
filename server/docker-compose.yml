@@ -1,0 +1,22 @@
+version: '3'
+services:
+  db:
+    image: postgres:12
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: $DB_PASSWORD
+      POSTGRES_USER: $DB_USERNAME
+      POSTGRES_DB: $DB_DATABASE
+      PG_DATA: /var/lib/postgresql/data
+    volumes:
+      - ~/db/${DB_DATABASE}:/var/lib/postgresql/data
+    ports:
+      - ${DB_PORT}:5432
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    driver: bridge
+
+

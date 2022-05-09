@@ -1,0 +1,1 @@
+export { CompetenciesSeeder } from './seeder';

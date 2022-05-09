@@ -1,0 +1,1 @@
+export { ImagesSeeder } from './seeder';

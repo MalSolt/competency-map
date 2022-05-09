@@ -1,0 +1,1 @@
+export { UsersSeeder } from './seeder';
